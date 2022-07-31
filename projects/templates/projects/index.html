@@ -1,3 +1,5 @@
+
+
 <h1>
    Projects
 </h1>
@@ -11,6 +13,7 @@
 
 <!doctype html>
 <html lang="en">
+{% load static %}
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -104,6 +107,7 @@
           <a href="#" class="btn btn-primary my-2">Email </a>
           <a href="#" class="btn btn-secondary my-2">Projects </a>
         </p>
+        <img src="{% static 'img.png' %}" height="300"></img>
       </div>
     </div>
   </section>
@@ -125,6 +129,7 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
+
                 <small class="text-muted">9 mins</small>
               </div>
             </div>
